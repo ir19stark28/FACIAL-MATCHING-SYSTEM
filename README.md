@@ -17,6 +17,8 @@ This project is a **Real-Time Facial Matching and Best Image Selection System** 
 ├── main.py                 # Main script to initialize and run the system
 ├── camera_capture.py       # Handles image capture from cameras
 ├── image_processing.py     # Processes images for face recognition
+|── models/                 # Folder for storing pre-trained models
+│   ├── shape_predictor_68_face_landmarks.dat  # Facial landmark detection model
 ├── requirements.txt        # Dependencies and required libraries
 └── README.md               # Project documentation
 ```
@@ -31,6 +33,8 @@ Ensure you have the following installed:
 - dlib
 - face_recognition
 - NumPy
+- Two connectable cameras
+
 
 ### Setup Instructions
 1. Clone the repository:
@@ -42,7 +46,15 @@ Ensure you have the following installed:
    ```sh
    pip install -r requirements.txt
    ```
-3. Run the system:
+ 3.Download and set up the `shape_predictor_68_face_landmarks.dat` model:
+   - Download from: [dlib.net](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
+   - Extract using:
+     ```sh
+     bzip2 -d shape_predictor_68_face_landmarks.dat.bz2
+     ```
+   - Place the extracted `.dat` file inside the `models/` folder.
+   
+4. Run the system:
    ```sh
    python main.py
    ```
