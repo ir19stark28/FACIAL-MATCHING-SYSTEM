@@ -17,8 +17,6 @@ This project is a **Real-Time Facial Matching and Best Image Selection System** 
 ├── main.py                 # Main script to initialize and run the system
 ├── camera_capture.py       # Handles image capture from cameras
 ├── image_processing.py     # Processes images for face recognition
-|── models/                 # Folder for storing pre-trained models
-│   ├── shape_predictor_68_face_landmarks.dat  # Facial landmark detection model
 ├── requirements.txt        # Dependencies and required libraries
 └── README.md               # Project documentation
 ```
