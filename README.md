@@ -84,7 +84,7 @@ Ensure you have the following installed:
 ---
 
 ## Contributors
-- **Your Name** (Intern, Sri Sairam Techno Incubator Foundation)
+- **Gali Yaswanth Sai** (Intern, Sri Sairam Techno Incubator Foundation)
 
 ---
 
