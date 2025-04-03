@@ -96,6 +96,7 @@ Ensure you have the following installed:
 
 ## Contributors
 - **Gali Yaswanth Sai** (Intern, Sri Sairam Techno Incubator Foundation)
+- **GokulKrishnan Saravanan** (Intern, Sri Sairam Techno Incubator Foundation )  https://github.com/gokulispro
 
 ---
 
